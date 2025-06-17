@@ -16,7 +16,7 @@
         // Como la primera fila es la cabecera no se cuenta
         // OFFSET 0 sería la segunda fila y OFFSET 8 la fila 10
 
-        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1S7uuyBhd_jW4CNfr1lkHevBbTiwuGbEPdglpfNOWV1k/gviz/tq?sheet=Sheet1&headers=1&tq=' + queryString);
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/2PACX-1vSVaUeSQVwBfLag_jZzXdw8yCnZc1OUK-sMe3LVWazsPAlMr9TRfierz7FPkE__uJZZPa8HuRZHTsHz/gviz/tq?sheet=Sheet1&headers=1&tq=' + queryString);
         query.send(handleSampleDataQueryResponse);
     }
     function handleSampleDataQueryResponse(response) {
